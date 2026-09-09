@@ -3,86 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>เที่ยวไต้หวัน - Taiwan Travel Guide</title>
+    <title>Taiwan Pastel Travel | เที่ยวไต้หวันฉบับละมุนใจ</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <!-- Header Section -->
-    <header class="hero">
-        <div class="hero-content">
-            <h1>ยินดีต้อนรับสู่ ไต้หวัน (Taiwan)</h1>
-            <p>สัมผัสเสน่ห์แห่งเกาะรูปหัวใจ ธรรมชาติ อาหารอร่อย และวัฒนธรรมที่ลงตัว</p>
-            <a href="#destinations" class="btn">เริ่มต้นการเดินทาง</a>
-        </div>
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="logo">🌸 Taiwan Journey</div>
+        <nav>
+            <ul>
+                <li><a href="#taipei">ไทเป</a></li>
+                <li><a href="#taichung">ไทจง</a></li>
+                <li><a href="#kaohsiung">เกาสยง</a></li>
+                <li><a href="#food">สตรีทฟู้ดห้ามพลาด</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <!-- Navigation -->
-    <nav>
-        <ul>
-            <li><a href="#about">รู้จักไต้หวัน</a></li>
-            <li><a href="#destinations">สถานที่ท่องเที่ยว</a></li>
-            <li><a href="#food">อาหารห้ามพลาด</a></li>
-        </ul>
-    </nav>
-
-    <!-- About Section -->
-    <section id="about" class="container">
-        <h2>รู้จักไต้หวันเบื้องต้น</h2>
-        <p>ไต้หวัน เป็นดินแดนที่รวมเอาความทันสมัยทางเทคโนโลยี และความงดงามทางธรรมชาติเข้าด้วยกัน มีทั้งภูเขาสูง ทะเลสวย ตลาดนัดยามค่ำคืนที่คึกคัก และการเดินทางที่สะดวกสบายด้วยรถไฟความเร็วสูง (THSR)</p>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <span>Welcome to Taiwan</span>
+            <h1>สัมผัสความละมุนและเสน่ห์แห่งไต้หวัน</h1>
+            <p>รวมจุดเช็กอินเมืองฮิตและสตรีทฟู้ดจานเด็ดที่คุณต้องมาลองสักครั้ง</p>
+            <a href="#cities" class="btn">เริ่มสำรวจเลย</a>
+        </div>
     </section>
 
-    <!-- Destinations Section -->
-    <section id="destinations" class="container bg-light">
-        <h2>สถานที่ท่องเที่ยวยอดนิยม</h2>
-        <div class="grid">
-            <div class="card">
-                <img src="https://images.unsplash.com/photo-1543731068-7e0f5beff43a?auto=format&fit=crop&w=600&q=80" alt="Taipei 101">
-                <div class="card-body">
-                    <h3>ตึกไทเป 101 (Taipei 101)</h3>
-                    <p>แลนด์มาร์กสำคัญใจกลางเมืองไทเป เคยเป็นตึกที่สูงที่สุดในโลก สามารถขึ้นไปชมวิวทิวทัศน์เมืองแบบ 360 องศาได้</p>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="https://images.unsplash.com/photo-1508248467877-aed328d05cc2?auto=format&fit=crop&w=600&q=80" alt="Jiufen">
-                <div class="card-body">
-                    <h3>หมู่บ้านโบราณจิ่วเฟิ่น (Jiufen)</h3>
-                    <p>เมืองสวยบนเขา ตกแต่งด้วยโคมแดงอันเป็นเอกลักษณ์ ให้บรรยากาศคล้ายหลุดเข้าไปในภาพยนตร์ Spirited Away</p>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=600&q=80" alt="Sun Moon Lake">
-                <div class="card-body">
-                    <h3>ทะเลสาบสุริยันจันทรา (Sun Moon Lake)</h3>
-                    <p>ทะเลสาบน้ำจืดที่ใหญ่ที่สุดในไต้หวัน ล้อมรอบด้วยทิวเขา เหมาะแก่การปั่นจักรยาน ล่องเรือ และพักผ่อนหย่อนใจ</p>
-                </div>
-            </div>
+    <!-- City Section -->
+    <section id="cities" class="section container">
+        <div class="section-header">
+            <h2>สำรวจเมืองท่องเที่ยวยอดนิยม</h2>
+            <p>คลิกเลือกเมืองเพื่อวาร์ปไปดูไฮไลต์ได้ทันที</p>
         </div>
+
+        <!-- เมือง 1: ไทเป -->
+        <article id="taipei" class="city-card">
+            <div class="city-img">
+                <img src="https://images.unsplash.com/photo-1543731068-7e0f5beff43a?auto=format&fit=crop&w=800&q=80" alt="ไทเป">
+            </div>
+            <div class="city-info">
+                <span class="badge">Northern Taiwan</span>
+                <h3>1. ไทเป (Taipei)</h3>
+                <p>เมืองหลวงที่เต็มไปด้วยสีสัน การผสมผสานอย่างลงตัวระหว่างตึกสูงทันสมัยกับวัดวาอารามโบราณ เดินทางง่ายด้วยรถไฟ MRT</p>
+                <div class="highlights">
+                    <strong>ไฮไลต์เด็ด:</strong> ตึก Taipei 101, หมู่บ้านโบราณจิ่วเฟิ่น (Jiufen), อนุสรณ์สถานเจียงไคเชก
+                </div>
+            </div>
+        </article>
+
+        <!-- เมือง 2: ไทจง -->
+        <article id="taichung" class="city-card reverse">
+            <div class="city-img">
+                <img src="https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=800&q=80" alt="ไทจง">
+            </div>
+            <div class="city-info">
+                <span class="badge">Central Taiwan</span>
+                <h3>2. ไทจง (Taichung)</h3>
+                <p>เมืองแห่งศิลปะ คาเฟ่สุดชิค และธรรมชาติที่เงียบสงบ เหมาะสำหรับสายสโลว์ไลฟ์และคนรักการถ่ายรูป</p>
+                <div class="highlights">
+                    <strong>ไฮไลต์เด็ด:</strong> พื้นที่ชุ่มน้ำเกาหมี่ (Gaomei Wetlands), หมู่บ้านรุ้ง (Rainbow Village), คาเฟ่ Miyahara
+                </div>
+            </div>
+        </article>
+
+        <!-- เมือง 3: เกาสยง -->
+        <article id="kaohsiung" class="city-card">
+            <div class="city-img">
+                <img src="https://images.unsplash.com/photo-1508248467877-aed328d05cc2?auto=format&fit=crop&w=800&q=80" alt="เกาสยง">
+            </div>
+            <div class="city-info">
+                <span class="badge">Southern Taiwan</span>
+                <h3>3. เกาสยง (Kaohsiung)</h3>
+                <p>เมืองท่าทางตอนใต้ที่โรแมนติก อุดมไปด้วยงานศิลปะริมทะเล บรรยากาศชิลๆ และตลาดนัดยามค่ำคืนที่กว้างใหญ่</p>
+                <div class="highlights">
+                    <strong>ไฮไลต์เด็ด:</strong> ศูนย์ศิลปะ Pier-2 Art Center, เจดีย์มังกรเสือ (Dragon and Tiger Pagodas), แม่น้ำรัก (Love River)
+                </div>
+            </div>
+        </article>
     </section>
 
     <!-- Food Section -->
-    <section id="food" class="container">
-        <h2>อาหารและสตรีทฟู้ดที่ไม่ควรพลาด</h2>
-        <div class="grid">
-            <div class="card">
-                <div class="card-body">
-                    <h3>🧋 ชานมไข่มุก (Boba Milk Tea)</h3>
-                    <p>ต้นตำรับชานมไข่มุกแท้ๆ ตัวมุกนุ่มหนึบ ชาหอมอร่อย มีให้เลือกชิมแทบทุกมุมเมือง</p>
-                </div>
+    <section id="food" class="section food-bg">
+        <div class="container">
+            <div class="section-header">
+                <h2>🧋 สตรีทฟู้ดที่ไม่ควรพลาด</h2>
+                <p>ตื่นตาตื่นใจไปกับรสชาติแท้ๆ สไตล์ไต้หวันทานง่าย ถูกปากคนไทย</p>
             </div>
-            <div class="card">
-                <div class="card-body">
-                    <h3>🍲 เสี่ยวหลงเปา (Xiaolongbao)</h3>
-                    <p>เกี๊ยวน้ำสไตล์ไต้หวัน ไส้หมูนุ่มๆ พร้อมน้ำซุปร้อนๆ หอมกลมกล่อมข้างใน</p>
+
+            <div class="food-grid">
+                <div class="food-card">
+                    <img src="https://images.unsplash.com/photo-1558857563-b371033873b8?auto=format&fit=crop&w=600&q=80" alt="ชานมไข่มุก">
+                    <div class="food-content">
+                        <h4>ชานมไข่มุก (Bubble Milk Tea)</h4>
+                        <p>ต้นตำรับชาหอมละมุน พร้อมเม็ดไข่มุกนุ่มหนึบสูตรพิเศษ</p>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                    <h3>🍗 ไก่ทอดไต้หวัน (Chicken Cutlet)</h3>
-                    <p>ไก่ทอดชิ้นยักษ์ กรอบนอกนุ่มใน หมักด้วยเครื่องเทศสไตล์ไต้หวัน โรยผงพริกสุดแซ่บ</p>
+
+                <div class="food-card">
+                    <img src="https://images.unsplash.com/photo-1496116218417-1a781b1c416c?auto=format&fit=crop&w=600&q=80" alt="เสี่ยวหลงเปา">
+                    <div class="food-content">
+                        <h4>เสี่ยวหลงเปา (Xiaolongbao)</h4>
+                        <p>เกี๊ยวน้ำสไตล์ไต้หวัน น้ำซุปร้อนๆ กลิ่นหอมกลมกล่อม</p>
+                    </div>
+                </div>
+
+                <div class="food-card">
+                    <img src="https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&w=600&q=80" alt="ไก่ทอดไต้หวัน">
+                    <div class="food-content">
+                        <h4>ไก่ทอดชิ้นยักษ์ (Chicken Cutlet)</h4>
+                        <p>กรอบนอกนุ่มใน หมักเครื่องเทศไต้หวันเข้มข้น</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -90,7 +123,7 @@
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2026 Taiwan Travel Guide | สร้างด้วย GitHub Pages</p>
+        <p>Made with 🤍 for Taiwan Lovers | Taiwan Travel Guide 2026</p>
     </footer>
 
 </body>
